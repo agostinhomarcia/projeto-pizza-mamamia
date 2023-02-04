@@ -1,13 +1,7 @@
 import React from "react";
 import "./footer.css";
-import { FaApple } from "react-icons/fa";
-import { FaAndroid } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-
+import { FcPhoneAndroid } from "react-icons/fc";
+import { AiFillApple } from "react-icons/ai";
 
 function Footer() {
   return (
@@ -30,9 +24,9 @@ function Footer() {
             <h4>Sobre Nós</h4>
             <ui className="list-unstyled">
               <li>Seja um Franqueado</li>
-            
             </ui>
           </div>
+          
           {/* Column3 */}
           <div className="col">
             <h4>Atendimento ao cliente</h4>
@@ -42,42 +36,62 @@ function Footer() {
               <li>Pesquisa de satisfação</li>
             </ui>
           </div>
-          <div className="col" >
+          <div className="col">
             <h4>Minha conta</h4>
             <ui className="list-unstyled">
               <li>Não tem conta? Crie agora mesmo</li>
               <li>Fazer login</li>
               <h4 className="list-unstyled">Termos</h4>
               <li>Política de privacidade</li>
-              <li>Adendo à política de  privacidade</li>
+              <li>Adendo à política de privacidade</li>
               <li>Política de cookies e anúncio</li>
-              <li>Termos de Uso</li>
+              <li>Termos de Uso </li>
             </ui>
-            
-            
           </div>
-          
+
           <div className="col">
-          
-            <h4>Conecte-se com a Pizzaria Mamma Mia</h4>
-            <ui className="list-unstyled">
-              <li><FaFacebookF size={20}/> </li>
-              <li><FaInstagram size={20} /></li>
-              <li><FaYoutube size={20} /></li>
-              <li><FaTwitter size={20}/></li>
-              <li><FaWhatsapp size={20}/></li>
+            <h4 >Conecte-se com a Pizzaria Mamma Mia</h4>
+            <ui className="list-unstyled ">
+              <li>Facebook </li>
+              <li> Instagram</li>
+              <li>Youtube</li>
+              <li>Twitter</li>
+              <li>Wattsapp</li>
             </ui>
-            <FaApple className="mb-1" size={35}/>
-            <FaAndroid size={35} />
+            <div className="col">
+            <FcPhoneAndroid size={35} />
+            <AiFillApple size={35} />
+            </div>
           </div>
         </div>
-        <hr />
+       <hr/>
         <div className="row">
-          <p className="d-flex justify-content-center" >
-            &copy;{new Date().getFullYear()} Fale conosco | Política de Privacidade |
-            Termos de uso  
-            
+          <p className="d-flex justify-content-center">
+            Fale conosco | Política de Privacidade | Termos de uso
           </p>
+          <hr/>
+          <p className="d-flex justify-content-start">
+            Copyright &copy;{new Date().getFullYear()} Pizzaria Mamma Mia LTDA-
+            CNPJ :00.0000.000/0000-00 AV Brasil - São Paulo/SP Todos os Direitos
+            Reservados. | Imagens Meramente Ilustrativas.
+          </p>
+          <hr />
+          <p className="d-flex justify-content-start">
+            Os preços apresentados já incluem impostos. Imagens meramente
+            ilustrativas. Promoções, preços e combos podem variar dependendo da
+            sua localização. Se ocorrer qualquer divergência nos valores dos
+            produtos ou promoções, o preço válido é o apresentado no carinho de
+            compras. Preçoes e condições de pagamento exclusivos para compras
+            via internet. As promoções são válidas enquanto durarem os estoques.
+            A Pizzaria Mamma Mia se reserva o direito de alterar e/ou remover
+            itens ou promoções do cardápio sem aviso prévio. O horário de
+            funcionamento e de entrega varia de acordo com sua localização ou
+            unidade escolhida. Digite o seu CEP Para descobrir se fazemos
+            entregas para sua região. 
+          
+          </p>
+          <p className="d-flex justify-content-center">Pizzaria Mamma Mia LTDA- CNPJ
+            :00.0000.000/0000-00 AV Brasil - São Paulo/SP</p>
         </div>
       </div>
     </div>
