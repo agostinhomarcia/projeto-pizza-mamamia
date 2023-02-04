@@ -12,6 +12,7 @@
 
 <h3 align="center">Footer Pizzaria Mamma Mia</h3>
 
+<img src="src/img/footer-pizzaria.png">
 
 
 <p align="center">
